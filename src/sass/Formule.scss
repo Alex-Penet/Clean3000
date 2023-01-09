@@ -1,2 +1,31 @@
 @use 'Variables.scss' as v;
-@use 'Mixins' as m ;
+@use 'Mixins' as m;
+
+
+@include m.Html();
+@include m.Hexagon();
+@include m.losange();
+
+.formule{
+    height: 100rem;
+    background-image: url("../components/vitre-arriereplan.jpg");;
+
+    .titre{
+        border: 0.1rem solid;
+        background-color: white;
+        margin: 1rem 7rem;
+        h1{
+            text-align: center;
+            margin:1.6rem;
+            text-transform: uppercase;
+            font-size: 2rem ;
+        }
+    }
+
+    hr{
+        height: 0.2rem;
+        background-color: white;
+        width: 90%;
+        border: none;
+    }
+}
