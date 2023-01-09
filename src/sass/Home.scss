@@ -1,4 +1,84 @@
-body{
-    margin : 0 ;
+@use 'Variables.scss' as v;
+@use 'Mixins' as m ;
+
+@include m.Html ();
+
+.Home{
+ 
+    display: flex;
+    justify-content: space-between;
+    background-image: url("../components/vitre-arriereplan.jpg");
+    height: 140rem;
+
+    .direction{
+        
+
+        .logo-ent{
+            img{
+              width: 150%;
+                height: 22rem;
+                margin: 1rem;
+            }
+        }
+
+        @include m.liens();
+        .liens{
+            font-size: 5rem;
+            margin-top: 150%;
+            padding: 1rem;
+        }
+    }
+
+
+
+    .logo{
+   
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:v.$Arriere-plan-bleu;
+
+        border: 0rem solid;
+        border-radius: 100rem 0rem 0rem 100rem;
+        width: 50%;
+
+        img{
+            justify-content: center;
+            position: absolute;
+            width: 25%;
+        }
+    }
 }
+
+@media (max-width:1440px){
+    .logo{
+        width: 30%;
+        margin: 10rem 0rem 10rem 10rem;
+    }
+}
+@media (max-width:780px){
+
+
+
+    .logo{
+
+        width: 50%;
+        margin: 10rem 0rem 20rem 10rem;
+     img{
+         margin-bottom: 10rem;
+     }
+    }
+}
+
+@media (max-width:380px){
+    .logo{
+       
+     
+        width: 50%;
+        margin: 10rem 0rem 10rem 10rem;
+        
+    }
+}
+
+
 
