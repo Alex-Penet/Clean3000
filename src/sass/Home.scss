@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-between;
     background-image: url("../components/vitre-arriereplan.jpg");
-    height: 140rem;
+    height: 160rem;
 
     .direction{
         
@@ -23,6 +23,7 @@
 
         @include m.liens();
         .liens{
+            
             font-size: 5rem;
             margin-top: 150%;
             padding: 1rem;

@@ -100,6 +100,7 @@ const Formule = () => {
                         <div className="end">
                             <p>Un nettoyage de vitre avec des motifs</p>
                             <p> choisi au préalable</p>
+                            <p>Tarifs : 30€</p>
                         </div>
                     </div>
                 </div>

@@ -16,8 +16,6 @@ const Home = () => {
                     <div className="Formule">
                         <a href="http://localhost:3000/Formule">Formule</a>
                     </div>
-
-
                 </div>
 
             </div>
